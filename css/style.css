@@ -1,0 +1,66 @@
+body {
+	background: url("../img/bg.jpg") no-repeat 50% 50% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+.nav1 {
+	background-color: rgb(0,0,0,0.6);
+	padding: 1px;
+}
+.nav1 a {
+	color: white;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+.card-background {
+	margin-top: 60px;
+	background-color: rgb(255,255,255,0.8)
+}
+.card-body {
+	padding: 30px;
+	text-align: center;
+}
+.judul {
+	font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	font-weight: bold;
+}
+.img-responsive1 {
+	max-width: 100%;
+	height: auto;
+}
+@media (min-width: 480px) {
+	.img-responsive1 {
+		height: 180px;
+		border-radius: 200px;
+	}
+}
+.title {
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+.a-link {
+	color:white !important;
+	background-color: transparent;
+}
+.a-link:hover {
+	background-color: rgb(0,0,0,0.2) !important;
+}
+footer {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	height:100px;
+	padding: 30px;
+}
+a.footer-credit {
+	color: white;
+	text-decoration: none;
+}
+.footer-credit {
+	font-weight: bold;
+}

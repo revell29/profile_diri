@@ -1,0 +1,110 @@
+body {
+	background: url("../img/bg.jpg") no-repeat 50% 50% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+.nav1 {
+	background-color: rgb(0,0,0,0.6);
+	padding: 1px;
+}
+.nav1 a {
+	color: white;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+.card-background {
+	margin-top: 30px;
+	background-color: rgb(255,255,255,0.9)
+}
+.card-body {
+	padding: 30px;
+}
+.judul {
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 40px;
+	color: rgb(255,255,255, 0.9);
+	margin-top: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.img-responsive1 {
+	max-width: 100%;
+	height: auto;
+}
+@media (min-width: 480px) {
+	.img-responsive1 {
+		height: 180px;
+		border-radius: 200px;
+	}
+}
+.title {
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+.a-link {
+	color:white !important;
+	background-color: transparent;
+}
+.a-link:hover {
+	background-color: rgb(0,0,0,0.2) !important;
+}
+footer {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	height:100px;
+	padding: 30px;
+}
+a.footer-credit {
+	color: white;
+	text-decoration: none;
+}
+.footer-credit {
+	font-weight: bold;
+}
+.education {
+	display: block;
+}
+.education h3 {
+	font-weight: bold;
+}
+.education p {
+	padding-left: 10px;
+	color: #37474f;
+}
+.profile h3 {
+	font-weight: bold;
+}
+.education i {
+	color: black;
+}
+.profile p {
+   padding-left: 10px;
+   font-size: 15px;
+   color: #37474f;
+}
+.profile i {
+	color: black;
+}
+/*COLOR*/
+.blue-grey {
+	color: #37474f;
+}
+.skill h3 {
+	font-weight: bold;
+}.skill p {
+	padding-left: 10px;
+}
+.work-experience p {
+	padding-left:10px;
+}
+.work-experience h3 {
+	font-weight: bold;
+}
+.progres {
+	margin-left: 10px;
+}
